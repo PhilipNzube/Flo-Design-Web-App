@@ -1,0 +1,1794 @@
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #FFFFFF;
+  width: 99%;
+  height: 100%;
+}
+
+@media only screen and (min-width:780px) {
+
+  #HomePageContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #TabBarMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: #FCF9F8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  #Logo {
+    cursor: pointer;
+    height: 100px;
+  }
+
+  #Menu {
+    display: none;
+  }
+  #NavOverlay {
+    display: none;
+  }
+
+  #Nav {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    align-items: center;
+    text-wrap: nowrap;
+    position: fixed;
+    right: 5%;
+    height: 100px;
+  }
+
+  #Nav1:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+  }
+
+  #Nav2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+  }
+
+  #Nav3 {
+    cursor: pointer;
+    box-shadow: 2px 2px #000000;
+    border: 1px solid #FCF9F8;
+    padding: 5%;
+  }
+
+  #Nav3:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px #000000;
+    border: 1px solid #000000;
+    color: #FFFFFF;
+    background: #000000;
+  }
+
+  #HomePageSec1 {
+    display: flex;
+    flex-direction: column;
+    background: #0C0C0C;
+    padding-bottom: 4%;
+    padding-top: 100px;
+    align-items: center;
+  }
+
+
+
+  #HomePageSec1Main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #HomePageImg1 {
+    width: 40%;
+    height: 100%;
+  }
+
+  #HomePageSec1Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+  }
+
+  #HomePageSec1TextHeader {
+    color: #FFFFFF;
+    font-size: 70px;
+    font-weight: bold;
+  }
+
+  #HomePageSec1TextBody {
+    color: #FFFFFF;
+    font-size: 18px;
+  }
+
+  #HomePageSec1But {
+    background: #000000;
+    color: #FFFFFF;
+    box-shadow: 2px 2px #FFFFFF;
+    border: 1px solid #FCF9F8;
+    padding: 3%;
+    text-align: center;
+    width: 100px;
+    text-wrap: nowrap;
+  }
+
+  #HomePageSec1But:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px #000000;
+    border: 1px solid #000000;
+    padding: 3%;
+    color: #000000;
+    background: #FFFFFF;
+  }
+
+  #ArrowImg {
+    cursor: pointer;
+    height: 70px;
+    width: 50px;
+  }
+
+  #HomePageSec2 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+    height: 850px;
+  }
+
+  #HomePageSec2Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120px;
+  }
+
+  #HomePageSec2TextHeader {
+    color: #000000;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  #HomePageSec2TextBody {
+    color: #000000;
+    font-size: 20px;
+  }
+
+  #HomePageSec2Main {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2%;
+  }
+
+  #BillMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #000000;
+    background: url('./images/PhoneBG.png') 0 100% no-repeat;
+    background-size: contain;
+    padding: 4%;
+    height: 600px;
+    width: 40%;
+  }
+
+  #BillMeText {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    height: 200px;
+  }
+
+  #BillMeTextHeader {
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  #BillMeTextBody {
+    color: #000000;
+    font-size: 18px;
+  }
+
+  #BillMeTextBody2 {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
+    align-items: center;
+    color: #000000;
+    font-size: 15px;
+    width: 40%;
+    font-weight: bold;
+    text-wrap: nowrap;
+  }
+
+  #SmallArrowImg {
+    height: 15px;
+  }
+
+
+
+  #TicketOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #000000;
+    background: #000000 url('./images/PhoneBG2.png') 0 100% no-repeat;
+    background-size: contain;
+    padding: 4%;
+    height: 600px;
+    width: 40%;
+  }
+
+  #TicketOneText {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    height: 200px;
+  }
+
+  #TicketOneTextHeader {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  #TicketOneTextBody {
+    color: #FFFFFF;
+    font-size: 18px;
+  }
+
+  #TicketOneTextBody2 {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 15px;
+    width: 40%;
+    font-weight: bold;
+    text-wrap: nowrap;
+  }
+
+  #PhonesImg {
+    width: 100%;
+    transition-property: all;
+    transition-duration: 1s;
+    transform: scaleX(100%);
+  }
+
+  #PhonesImg:hover {
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1s;
+    transform: scale(120%);
+  }
+
+  #IPhones {
+    position: relative;
+    transition-property: all;
+    transition-duration: 1s;
+    transform: scaleX(100%);
+  }
+
+  #IPhones:hover {
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1s;
+    transform: scale(120%);
+  }
+
+  #IPhoneImg {
+    right: 35%;
+    bottom: 1%;
+    position: absolute;
+    width: 80%;
+  }
+
+  #IPhoneImg2 {
+    left: 35%;
+    bottom: 1%;
+    position: absolute;
+    width: 60%;
+  }
+
+
+
+  #AboutMeSec1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4%;
+    padding-top: 200px;
+    height: 1300px;
+  }
+
+
+
+  #AboutMeSec1Main {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+
+  }
+
+  #AboutMeImg1Main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    width: 50%;
+  }
+
+  #AboutMeImg1 {
+    width: 95%;
+  }
+
+  #AboutMeSec1Text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    width: 50%;
+  }
+
+  #AboutMeImg1TextHeader {
+    color: #000000;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  #AboutMeSec1TextBody {
+    color: #000000;
+    font-size: 18px;
+  }
+
+  #CV {
+    text-align: center;
+    text-wrap: nowrap;
+    cursor: pointer;
+    box-shadow: 2px 2px #000000;
+    border: 1px solid #000000;
+    padding: 3%;
+    width: 40%;
+    font-weight: 500;
+  }
+
+  #CV:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px #000000;
+    border: 1px solid #000000;
+    padding: 3%;
+    background: #000000;
+    color: #FFFFFF;
+  }
+
+  #ContactMeDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+  }
+
+  #ContactMeText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+  }
+
+  #ContactMeTextHeader {
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #ContactMeTextBody {
+    color: #000000;
+    font-size: 20px;
+  }
+
+  #BillMeDiv {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  #PhonesImg2 {
+    width: 60%;
+  }
+
+  #BillMeSec1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+  }
+
+  #BillMeSec1Sub {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #BillMeSec1TextHeader {
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #BillMeSec1TextBody {
+    color: #000000;
+    font-size: 20px;
+  }
+
+  #BillMeSec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./images/BillMePhoneGroupBG.png') 0 0 no-repeat;
+  }
+
+
+  .BillMeSecWhiteClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .BillMeSecSubWhiteClass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .BillMeTextHeaderClass {
+    width: 100%;
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .BillMeTextBodyClass {
+    color: #000000;
+    font-size: 20px;
+  }
+
+  .BillMeDividerClass {
+    background: #000000;
+    width: 100%;
+    height: 3px;
+  }
+
+  .BillMeSecAshClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .BillMeSecSubAshClass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #EFEAEA;
+  }
+
+
+  .BillMeSecSubWhiteClass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #BillMeSec3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+  }
+
+  #PhonesImg3 {
+    width: 100%;
+  }
+
+  .WireframeBut {
+    color: #000;
+    text-decoration: none;
+    text-wrap: nowrap;
+    cursor: pointer;
+    box-shadow: 2.5px 2.5px #000000;
+    border: 1px solid #000000;
+    padding: 2%;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .WireframeBut:hover {
+    background: #000;
+    color: #FFFFFF;
+    cursor: pointer;
+    box-shadow: 0px 0px #000000;
+  }
+
+  #PCImgs {
+    width: 100%;
+  }
+
+  #PaddedBillMe {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .BillMeSecSubWhiteClass2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  #BillMeSec4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+    width: 100%;
+  }
+
+  #BillMeSec4Sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #EFEAEA;
+  }
+
+  #PCImg {
+    width: 80%;
+  }
+
+
+  #TicketOneDiv {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  #TicketOneMeSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./images/TicketOnePhoneGroupBG.png') 0 0 no-repeat;
+    height: 550px;
+    background-size: cover;
+  }
+
+  #TicketOnePhonesImg {
+    width: 40%;
+  }
+
+
+  .TicketOneSecDarkAshClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .TicketOneSecSubDarkAshClass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #3F3F3F;
+  }
+
+  .TicketOneTextHeaderClass {
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .TicketOneTextBodyClass {
+    color: #FFFFFF;
+    font-size: 20px;
+  }
+
+  .TicketOneDividerClass {
+    background: #FFFFFF;
+    width: 100%;
+    height: 3px;
+  }
+
+  .TicketOneSecVeryDarkAshClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .TicketOneSecSubVeryDarkAshClass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #1E1F22;
+  }
+
+
+  .TicketOneSecSubDarkAshClass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .TicketOneSecAshClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .TicketOneSecSubVeryDarkAshClass2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #1E1F22;
+  }
+
+
+  .TicketOneSecSubDarkAshClass2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #3F3F3F;
+  }
+
+
+  #TicketOnePersona {
+    display: flex;
+    flex-direction: row;
+    column-gap: 60px;
+  }
+
+  #TicketOnePersonaSub {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  #TicketOnePersonaSub2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #PersonaImg {
+    height: 500px;
+  }
+
+
+  .TicketOneTextHeaderClass2 {
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .TicketOneTextHeaderClass3 {
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 20px;
+  }
+
+  .TicketOneTextBodyClass2 {
+    color: #FFFFFF;
+    font-size: 16px;
+  }
+
+  .TicketOneTextHeaderClass4 {
+    width: 90%;
+    color: #FFFFFF;
+    font-size: 20px;
+  }
+
+  #UIDesignImg {
+    width: 90%;
+  }
+
+  #UIDesignImg2 {
+    width: 100%;
+  }
+
+  #TicketOneGroupOfPhones {
+    width: 100%;
+  }
+
+  .WireframeBut2 {
+    color: #000;
+    text-decoration: none;
+    text-wrap: nowrap;
+    cursor: pointer;
+    box-shadow: 2.5px 2.5px #000000;
+    border: 1px solid #000000;
+    padding: 2%;
+    font-weight: 500;
+    text-align: center;
+    background: #FFFFFF;
+  }
+
+  .WireframeBut2:hover {
+    color: #FFFFFF;
+    background: #000;
+    cursor: pointer;
+    box-shadow: 0px 0px #000000;
+  }
+
+  .phone-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  .phone-frame {
+    width: 70%;
+    height: 400px;
+    border: 10px black solid;
+    border-radius: 36px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  .phone-frame.samsung {
+    width: 90%;
+    height: 500px;
+    border-radius: 20px;
+    border: 10px black solid;
+  }
+  .phone-frame iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  .notch {
+    width: 110px;
+    height: 30px;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0 0 10px 10px;
+  }
+  #selector {
+    margin-bottom: 20px;
+  }
+  .phone-container label {
+    display: block;
+    margin-top: 10px;
+  }
+
+  #TicketOnePrototypeImg {
+    width: 50%;
+  }
+
+  #TicketOneSec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .TicketOneSecSubVeryDarkAshClass3 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #1E1F22;
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width:780px) {
+
+  #HomePageContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #TabBarMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: #FCF9F8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  #Logo {
+    cursor: pointer;
+    height: 100px;
+  }
+
+  #Menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    height: 100px;
+  }
+
+  #MenuImg {
+    width: 50%;
+  }
+
+  #CloseMenuImg {
+    display: none;
+    width: 50%;
+  }
+
+  #NavOverlay {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #FCF9F8;
+    z-index: -1;
+    animation-name: OverlaySlideIn;
+    animation-duration: 0.8s;
+    animation-iteration-count: 1;
+  }
+
+
+  @keyframes OverlaySlideIn {
+    0% {
+      transform: translateY(100%);
+    }
+
+    100% {
+      transform: translateY(0%);
+    }
+  }
+
+  @keyframes OverlaySlideOut {
+    0% {
+      transform: translateY(0%);
+    }
+
+    100% {
+      transform: translateY(100%);
+    }
+  }
+
+  #NavOverlay1 {
+    font-size: 40px;
+  }
+
+  #NavOverlay1:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+  }
+
+  #NavOverlay2 {
+    font-size: 40px;
+  }
+
+  #NavOverlay2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+  }
+
+  #NavOverlay3 {
+    position: fixed;
+    bottom: 50px;
+    cursor: pointer;
+    box-shadow: 2px 2px #000000;
+    border: 1px solid #000000;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 20px;
+  }
+
+  #NavOverlay3:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px #000000;
+    border: 1px solid #000000;
+    color: #FFFFFF;
+    background: #000000;
+  }
+
+  #Nav {
+    display: none;
+  }
+
+  #Nav1:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+  }
+
+  #Nav2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+  }
+
+  #Nav3 {
+    cursor: pointer;
+    box-shadow: 2px 2px #000000;
+    border: 1px solid #FCF9F8;
+    padding: 5%;
+  }
+
+  #Nav3:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px #000000;
+    border: 1px solid #000000;
+    color: #FFFFFF;
+    background: #000000;
+  }
+
+  #HomePageSec1 {
+    display: flex;
+    flex-direction: column;
+    background: #0C0C0C;
+    padding-bottom: 4%;
+    padding-top: 100px;
+    align-items: center;
+  }
+
+
+
+  #HomePageSec1Main {
+    display: flex;
+    flex-direction: column-reverse;
+    column-gap: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 8%;
+  }
+
+  #HomePageImg1 {
+    width: 90%;
+    height: 100%;
+  }
+
+  #HomePageSec1Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+    width: 100%;
+  }
+
+  #HomePageSec1TextHeader {
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  #HomePageSec1TextBody {
+    color: #FFFFFF;
+    font-size: 18px;
+  }
+
+  #HomePageSec1But {
+    background: #000000;
+    color: #FFFFFF;
+    box-shadow: 2px 2px #FFFFFF;
+    border: 1px solid #FCF9F8;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    width: 100px;
+    text-wrap: nowrap;
+  }
+
+  #HomePageSec1But:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px #000000;
+    border: 1px solid #000000;
+    padding: 3%;
+    color: #000000;
+    background: #FFFFFF;
+  }
+
+  #ArrowImg {
+    cursor: pointer;
+    height: 70px;
+    width: 50px;
+  }
+
+  #HomePageSec2 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    row-gap: 70px;
+    height: 100%;
+  }
+
+  #HomePageSec2Text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    height: 130px;
+  }
+
+  #HomePageSec2TextHeader {
+    color: #000000;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  #HomePageSec2TextBody {
+    color: #000000;
+    font-size: 18px;
+  }
+
+  #HomePageSec2Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+
+  #PhonesImgDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #BillMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #000000;
+    background: url('./images/PhoneBG.png') 0 100% no-repeat;
+    background-size: contain;
+    padding: 4%;
+    height: 600px;
+    width: 100%;
+  }
+
+  #BillMeText {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    height: 200px;
+  }
+
+  #BillMeTextHeader {
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  #BillMeTextBody {
+    color: #000000;
+    font-size: 18px;
+  }
+
+  #BillMeTextBody2 {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
+    align-items: center;
+    color: #000000;
+    font-size: 15px;
+    width: 40%;
+    font-weight: bold;
+    text-wrap: nowrap;
+  }
+
+  #SmallArrowImg {
+    height: 15px;
+  }
+
+
+
+  #TicketOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #000000;
+    background: #000000 url('./images/PhoneBG2.png') 0 100% no-repeat;
+    background-size: contain;
+    padding: 4%;
+    height: 600px;
+    width: 100%;
+  }
+
+  #TicketOneText {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    height: 200px;
+  }
+
+  #TicketOneTextHeader {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  #TicketOneTextBody {
+    color: #FFFFFF;
+    font-size: 18px;
+  }
+
+  #TicketOneTextBody2 {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 15px;
+    width: 40%;
+    font-weight: bold;
+    text-wrap: nowrap;
+  }
+
+  #PhonesImg {
+    width: 85%;
+    transition-property: all;
+    transition-duration: 1s;
+    transform: scaleX(100%);
+  }
+
+  #PhonesImg:hover {
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1s;
+    transform: scale(115%);
+  }
+
+  #IPhones {
+    position: relative;
+    transition-property: all;
+    transition-duration: 1s;
+    transform: scaleX(100%);
+  }
+
+  #IPhones:hover {
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1s;
+    transform: scale(115%);
+  }
+
+  #IPhoneImg {
+    right: 35%;
+    bottom: 1%;
+    position: absolute;
+    width: 70%;
+  }
+
+  #IPhoneImg2 {
+    left: 35%;
+    bottom: 1%;
+    position: absolute;
+    width: 60%;
+  }
+
+
+
+  #AboutMeSec1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4%;
+    padding-top: 200px;
+    height: 1300px;
+    row-gap: 150px;
+  }
+
+
+
+  #AboutMeSec1Main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  #AboutMeImg1Main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    width: 100%;
+  }
+
+  #AboutMeImg1Div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #AboutMeImg1 {
+    width: 60%;
+  }
+
+  #AboutMeSec1Text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  #AboutMeImg1TextHeader {
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #AboutMeSec1TextBody {
+    color: #000000;
+    font-size: 15px;
+  }
+
+  #CV {
+    text-align: center;
+    text-wrap: nowrap;
+    cursor: pointer;
+    box-shadow: 2px 2px #000000;
+    border: 1px solid #000000;
+    padding: 3%;
+    width: 40%;
+    font-weight: 500;
+  }
+
+  #CV:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px #000000;
+    border: 1px solid #000000;
+    padding: 3%;
+    background: #000000;
+    color: #FFFFFF;
+  }
+
+  #ContactMeDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+  #ContactMeDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  #ContactMeText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+  }
+
+  #ContactMeTextHeader {
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #ContactMeTextBody {
+    color: #000000;
+    font-size: 20px;
+  }
+
+  #BillMeDiv {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  #PhonesImg2 {
+    width: 60%;
+  }
+
+  #BillMeSec1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+  }
+
+  #BillMeSec1Sub {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #BillMeSec1TextHeader {
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #BillMeSec1TextBody {
+    color: #000000;
+    font-size: 20px;
+  }
+
+  #BillMeSec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./images/BillMePhoneGroupBG.png') 0 0 no-repeat;
+  }
+
+
+  .BillMeSecWhiteClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .BillMeSecSubWhiteClass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .BillMeTextHeaderClass {
+    width: 100%;
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .BillMeTextBodyClass {
+    color: #000000;
+    font-size: 15px;
+  }
+
+  .BillMeDividerClass {
+    background: #000000;
+    width: 100%;
+    height: 3px;
+  }
+
+  .BillMeSecAshClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .BillMeSecSubAshClass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #EFEAEA;
+  }
+
+
+  .BillMeSecSubWhiteClass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #BillMeSec3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+  }
+
+  #PhonesImg3 {
+    width: 100%;
+  }
+
+  .WireframeBut {
+    color: #000;
+    text-decoration: none;
+    text-wrap: nowrap;
+    cursor: pointer;
+    box-shadow: 2.5px 2.5px #000000;
+    border: 1px solid #000000;
+    padding: 3%;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .WireframeBut:hover {
+    background: #000;
+    color: #FFFFFF;
+    cursor: pointer;
+    box-shadow: 0px 0px #000000;
+  }
+
+  #PCImgs {
+    width: 100%;
+  }
+
+  #PaddedBillMe {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .BillMeSecSubWhiteClass2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  #BillMeSec4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+  }
+
+  #BillMeSec4Sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #EFEAEA;
+  }
+
+  #PCImg {
+    width: 80%;
+  }
+
+
+  #TicketOneDiv {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+  }
+
+
+  #TicketOneMeSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./images/TicketOnePhoneGroupBG.png') 0 0 no-repeat;
+    height: 550px;
+    background-size: cover;
+  }
+
+  #TicketOnePhonesImg {
+    width: 60%;
+  }
+
+
+  .TicketOneSecDarkAshClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .TicketOneSecSubDarkAshClass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #3F3F3F;
+  }
+
+  .TicketOneTextHeaderClass {
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .TicketOneTextBodyClass {
+    color: #FFFFFF;
+    font-size: 15px;
+  }
+
+  .TicketOneDividerClass {
+    background: #FFFFFF;
+    width: 100%;
+    height: 3px;
+  }
+
+  .TicketOneSecVeryDarkAshClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .TicketOneSecSubVeryDarkAshClass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #1E1F22;
+  }
+
+
+  .TicketOneSecSubDarkAshClass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .TicketOneSecAshClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .TicketOneSecSubVeryDarkAshClass2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #1E1F22;
+  }
+
+
+  .TicketOneSecSubDarkAshClass2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #3F3F3F;
+  }
+
+
+  #TicketOnePersona {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+  }
+
+  #TicketOnePersonaSub {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  #TicketOnePersonaSub2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #PersonaImg {
+    width: 100%;
+  }
+
+
+  .TicketOneTextHeaderClass2 {
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .TicketOneTextHeaderClass3 {
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 20px;
+  }
+
+  .TicketOneTextBodyClass2 {
+    color: #FFFFFF;
+    font-size: 16px;
+  }
+
+  .TicketOneTextHeaderClass4 {
+    width: 90%;
+    color: #FFFFFF;
+    font-size: 20px;
+  }
+
+  #UIDesignImg {
+    width: 90%;
+  }
+
+  #UIDesignImg2 {
+    width: 100%;
+  }
+
+  #TicketOneGroupOfPhones {
+    width: 100%;
+  }
+
+  .WireframeBut2 {
+    color: #000;
+    text-decoration: none;
+    text-wrap: nowrap;
+    cursor: pointer;
+    box-shadow: 2.5px 2.5px #000000;
+    border: 1px solid #000000;
+    padding: 3%;
+    text-align: center;
+    background: #FFFFFF;
+  }
+
+  .WireframeBut2:hover {
+    color: #FFFFFF;
+    background: #000;
+    cursor: pointer;
+    box-shadow: 0px 0px #000000;
+  }
+
+  .phone-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .phone-frame {
+    width: 80%;
+    height: 400px;
+    border: 5px black solid;
+    border-radius: 36px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  .phone-frame.samsung {
+    width: 90%;
+    height: 500px;
+    border-radius: 20px;
+    border: 10px black solid;
+  }
+  .phone-frame iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  .notch {
+    width: 110px;
+    height: 25px;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0 0 10px 10px;
+  }
+  #selector {
+    margin-bottom: 20px;
+  }
+  .phone-container label {
+    display: block;
+    margin-top: 10px;
+  }
+
+  #TicketOnePrototypeImg {
+    width: 50%;
+  }
+
+  #TicketOneSec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    width: 100%;
+  }
+
+  .TicketOneSecSubVeryDarkAshClass3 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #1E1F22;
+    width: 100%;
+  }
+}
