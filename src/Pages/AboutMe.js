@@ -9,7 +9,7 @@ export default function AboutMe() {
                         <div id="AboutMeImg1TextHeader">Who am I?</div>
                         <div id="AboutMeImg1Div">
                             <img id="AboutMeImg1" src={AboutMeImg1} alt="AboutMeImg" />
-                            </div>
+                        </div>
                     </div>
                     <div id="AboutMeSec1Text">
                         <div id="AboutMeSec1TextBody">I’m a 4th-year Computer Science student in Canada, originally from Egypt. I moved to
@@ -40,14 +40,15 @@ export default function AboutMe() {
                             uniquely to bridge the gap between development and design, ensuring seamless and
                             user-centric digital experiences.
                         </div>
-                        <div id="CV">View my CV</div>
+                        <div className="fade-in"><div id="CV">View my CV</div></div>
                     </div>
                 </div>
-
-                <div id="ContactMeDiv">
-                    <div id="ContactMeTextHeader">Contact Me</div>
-                    <div id="ContactMeBody">If you have any questions please reach out to me through my email address below<br /><br />
-                        <div id="ContactMeBody2">Email<br /> <b>aliaymansaleh02@gmail.com</b>
+                <div className="fade-in">
+                    <div id="ContactMeDiv">
+                        <div id="ContactMeTextHeader">Contact Me</div>
+                        <div id="ContactMeBody">If you have any questions please reach out to me through my email address below<br /><br />
+                            <div id="ContactMeBody2">Email<br /> <b>aliaymansaleh02@gmail.com</b>
+                            </div>
                         </div>
                     </div>
                 </div>

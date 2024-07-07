@@ -3,8 +3,28 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
   background: #FFFFFF;
-  width: 99%;
+  width: 100%;
   height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 5px;
+}
+
+.fade-in{
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in.visible{
+  opacity: 1;
 }
 
 @media only screen and (min-width:780px) {
@@ -84,6 +104,7 @@ body {
     flex-direction: column;
     background: #0C0C0C;
     padding-bottom: 4%;
+    padding-right: 8%;
     padding-top: 100px;
     align-items: center;
   }
@@ -477,6 +498,16 @@ body {
     padding-bottom: 5%;
   }
 
+  .BillMeSecSubWhiteClass3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
   .BillMeTextHeaderClass {
     width: 100%;
     color: #000000;
@@ -526,6 +557,11 @@ body {
     row-gap: 50px;
   }
 
+  #PhonesImg3Div {
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+
   #PhonesImg3 {
     width: 100%;
   }
@@ -547,6 +583,11 @@ body {
     color: #FFFFFF;
     cursor: pointer;
     box-shadow: 0px 0px #000000;
+  }
+
+  #PCImgsDiv {
+    padding-left: 250px;
+    padding-right: 250px;
   }
 
   #PCImgs {
@@ -580,6 +621,7 @@ body {
     flex-direction: column;
     align-items: center;
     background: #EFEAEA;
+    width: 100%;
   }
 
   #PCImg {
@@ -837,8 +879,8 @@ body {
     flex-direction: column;
     row-gap: 50px;
     align-items: flex-start;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 5%;
     padding-bottom: 5%;
     background: #1E1F22;
@@ -1084,7 +1126,7 @@ body {
     padding-top: 4%;
     padding-left: 10%;
     padding-right: 10%;
-    row-gap: 70px;
+    row-gap: 10px;
     height: 100%;
   }
 
@@ -1092,12 +1134,13 @@ body {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
-    height: 130px;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
 
   #HomePageSec2TextHeader {
     color: #000000;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
   }
 
@@ -1140,6 +1183,9 @@ body {
     flex-direction: column;
     row-gap: 15px;
     height: 200px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   #BillMeTextHeader {
@@ -1193,6 +1239,9 @@ body {
     flex-direction: column;
     row-gap: 15px;
     height: 200px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   #TicketOneTextHeader {
@@ -1388,6 +1437,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   #BillMeSec1TextHeader {
@@ -1419,8 +1470,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 5%;
     padding-bottom: 5%;
   }
@@ -1453,15 +1504,22 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 5%;
     padding-bottom: 5%;
     background: #EFEAEA;
   }
 
 
-  .BillMeSecSubWhiteClass {
+  .BillMeSecSubWhiteClass3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+
+  .BillMeSecSubWhiteClass3 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1472,6 +1530,11 @@ body {
     flex-direction: column;
     align-items: center;
     row-gap: 50px;
+  }
+
+  #PhonesImg3Div {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   #PhonesImg3 {
@@ -1497,13 +1560,18 @@ body {
     box-shadow: 0px 0px #000000;
   }
 
+  #PCImgsDiv {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   #PCImgs {
     width: 100%;
   }
 
   #PaddedBillMe {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .BillMeSecSubWhiteClass2 {
@@ -1520,6 +1588,7 @@ body {
     flex-direction: column;
     align-items: center;
     row-gap: 50px;
+    width: 100%;
   }
 
   #BillMeSec4Sub {
@@ -1527,6 +1596,9 @@ body {
     flex-direction: column;
     align-items: center;
     background: #EFEAEA;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   #PCImg {
@@ -1565,8 +1637,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 5%;
     padding-bottom: 5%;
     background: #3F3F3F;
@@ -1600,8 +1672,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 5%;
     padding-bottom: 5%;
     background: #1E1F22;
@@ -1626,8 +1698,8 @@ body {
     flex-direction: column;
     row-gap: 50px;
     align-items: flex-start;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 5%;
     padding-bottom: 5%;
     background: #1E1F22;
@@ -1639,8 +1711,8 @@ body {
     flex-direction: column;
     row-gap: 50px;
     align-items: flex-start;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 5%;
     padding-bottom: 5%;
     background: #3F3F3F;
@@ -1688,7 +1760,7 @@ body {
   }
 
   .TicketOneTextHeaderClass4 {
-    width: 90%;
+    width: 100%;
     color: #FFFFFF;
     font-size: 20px;
   }
@@ -1730,8 +1802,8 @@ body {
     align-items: center;
   }
   .phone-frame {
-    width: 80%;
-    height: 400px;
+    width: 150px;
+    height: 300px;
     border: 5px black solid;
     border-radius: 36px;
     position: relative;
@@ -1750,8 +1822,8 @@ body {
     border: 0;
   }
   .notch {
-    width: 110px;
-    height: 25px;
+    width: 75px;
+    height: 20px;
     background: black;
     position: absolute;
     top: 0;
@@ -1784,8 +1856,8 @@ body {
     flex-direction: column;
     row-gap: 50px;
     align-items: flex-start;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 5%;
     padding-bottom: 5%;
     background: #1E1F22;

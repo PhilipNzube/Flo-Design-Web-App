@@ -9,6 +9,31 @@ export default function TabBar() {
     let ProjectsClicked = false;
     const navigate = useNavigate();
 
+    const isInViewport = (element) => {
+        const rect = element.getBoundingClientRect();
+        return (
+            rect.top <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.left <= (window.innerWidth || document.documentElement.clientWidth) &&
+            rect.bottom >= 0 &&
+            rect.right >= 0
+        );
+    }
+
+    const addVisibleClass = () => {
+        const elements = document.querySelectorAll('.fade-in');
+        elements.forEach(element => {
+            if (isInViewport(element)) {
+                element.classList.add('visible');
+            }
+        });
+    }
+
+    window.addEventListener('scroll', addVisibleClass);
+    window.addEventListener('resize', addVisibleClass);
+    document.addEventListener('DOMContentLoaded', addVisibleClass);
+
+    addVisibleClass();
+
     const MenuClick = () => {
         document.getElementById("MenuImg").style.display = "none";
         document.getElementById("CloseMenuImg").style.display = "block";
