@@ -1,6 +1,6 @@
 {
-  "short_name": "PAYLECT",
-  "name": "PAYLECT APP",
+  "short_name": "FLO",
+  "name": "FLO APP",
   "icons": [
     {
       "src": "Icon64.png",
@@ -21,5 +21,5 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#2a5ee4"
+  "background_color": "#FCF9F8"
 }

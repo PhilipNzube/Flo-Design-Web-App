@@ -1,4 +1,4 @@
-import HomePageImg1 from "../images/Homepage 1.png"
+import HomePageImg1 from "../images/Homepage.jpg"
 import ArrowImg from "../images/Arrow.png"
 import PhonesImg from "../images/GroupOfPhones.png"
 import SmallArrowImg from "../images/SmallArrow.png"
