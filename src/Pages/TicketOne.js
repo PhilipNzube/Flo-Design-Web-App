@@ -508,10 +508,8 @@ export default function TicketOne() {
                             <div className="fade-in">
                                 <div className="phone-container">
                                     <div className="phone-frame" id="phoneFrame">
-                                        <div className="notch" id="notch"></div>
-                                        <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6TGfBOOKoLXuRxwRdr8W80%2FFlo-design%3Fpage-id%3D0%253A1%26node-id%3D129-446%26viewport%3D-1574%252C-60%252C0.41%26t%3DiF5EW8yHHcjjKXle-1%26scaling%3Dmin-zoom%26content-scaling%3Dfixed" allowfullscreen></iframe>
+                                        <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com/proto/1ULaycsRlcuQlUex1CnM70/BillMe-Mobile-App-Highfi?page-id=0%3A1&node-id=1-506&viewport=483%2C377%2C0.13&t=sEelkaoSAFlX7iDc-1&scaling=scale-down&starting-point-node-id=1%3A135" allowFullScreen></iframe>
                                     </div>
-                                    {/* <label id="phoneLabel">iPhone</label> */}
                                 </div>
                             </div>
                             {/* <img id="TicketOnePrototypeImg" src={TicketOnePrototypeImg} alt="TicketOnePrototypeImg" /> */}
