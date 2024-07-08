@@ -47,7 +47,7 @@ export default function BillMe() {
                         <br />
                         <div className="fade-in">
                             <div className="BillMeTextBodyClass">
-                                <b>Challenges</b>: Invoices often look the same, making customization difficult for different
+                                <b>Challenges:</b> Invoices often look the same, making customization difficult for different
                                 clients. Additionally, sending invoices is usually a complicated and time-consuming
                                 process. The challenge was to create a tool that simplifies and streamlines this process.
                             </div>
@@ -153,7 +153,7 @@ export default function BillMe() {
                             <div className="BillMeTextBodyClass">
                                 <li><b>User Interviews:</b> Conducted to understand the current billing practices,
                                     satisfaction levels, and desired features.</li>
-                                <li><b>Competitive Analysis:</b>Analyzed existing invoicing tools to identify gaps and
+                                <li><b>Competitive Analysis:</b> Analyzed existing invoicing tools to identify gaps and
                                     opportunities for improvement.</li>
                             </div>
                         </div>
@@ -287,13 +287,15 @@ export default function BillMe() {
                             <div className="fade-in"><a className="WireframeBut" href="https://www.figma.com/proto/ZaFF3p4WB6yyt5PH5XW9s9/App-Wireframes?page-id=0%3A1&node-id=1-135&viewport=550%2C631%2C0.2&t=GEuygK5lacZS3d00-1&scaling=min-zoom">View full wireframes</a></div>
                         </div>
                         <br />
-                        <div className="fade-in">
-                            <div id="PaddedBillMe">
+
+                        <div id="PaddedBillMe">
+                            <div className="fade-in">
                                 <div className="BillMeTextBodyClass">
                                     <li><b>Website Wireframes:</b></li>
                                 </div>
                             </div>
                         </div>
+
                         <br />
                         <div id="BillMeSec3">
                             <div className="fade-in">
@@ -301,32 +303,33 @@ export default function BillMe() {
                                     <img id="PCImgs" src={PCImgs} alt="PCImgs" />
                                 </div>
                             </div>
-                            <div className="fade-in"> <a className="WireframeBut" href="https://www.figma.com/proto/d7OdYroZuEv391vCr43tlI/Desktop-Website-Wireframes?page-id=0%3A1&node-id=0-1&viewport=312%2C413%2C0.06&t=cuWzZw04V5mTuLAo-1&scaling=scale-down">View full wireframes</a></div>
+                            <div className="fade-in"> <a className="WireframeBut" href="https://www.figma.com/proto/ww8Wg5TX1jFrzSI8UTXvxM/Website-Highfi?page-id=0%3A1&node-id=1-678&viewport=4581%2C-264%2CO.47&t=82RycQpNHIgXCm3C-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A678">View full wireframes</a></div>
                         </div>
 
                         <br />
 
                         <div className="fade-in">
                             <div id="PaddedBillMe" className="BillMeTextBodyClass">
-
-                                <div>
-                                    <b>Usability Study:</b>Conducted usability testing to refine the design.
-                                </div>
-                                <br />
-
-                                <li><b>Methodology:</b>Participants were given tasks to complete using the prototype.</li>
-                                <li><b>Results:</b></li>
-
                                 <ul>
+                                    <div>
+                                        <b>Usability Study:</b> Conducted usability testing to refine the design.
+                                    </div>
+                                    <br />
 
-                                    <li>Most participants found the invoicing process easy to navigate.</li>
+                                    <li><b>Methodology:</b> Participants were given tasks to complete using the prototype.</li>
+                                    <li><b>Results:</b></li>
 
-                                    <li>Customization features were well-received, but some found navigation
-                                        through the client list counterintuitive.</li>
+                                    <ul>
 
-                                    <li>Suggestions for improvements included more prominent placement of the
-                                        new invoice form creation button.</li>
+                                        <li>Most participants found the invoicing process easy to navigate.</li>
 
+                                        <li>Customization features were well-received, but some found navigation
+                                            through the client list counterintuitive.</li>
+
+                                        <li>Suggestions for improvements included more prominent placement of the
+                                            new invoice form creation button.</li>
+
+                                    </ul>
                                 </ul>
                             </div>
                         </div>
@@ -377,12 +380,12 @@ export default function BillMe() {
 
 
 
-                <div className="BillMeSecWhiteClass">
+                <div id="SpacePrototypes">
                     <div className="BillMeSecSubWhiteClass3">
                         <div id="PaddedBillMe">
                             <div className="fade-in">
                                 <div className="BillMeTextHeaderClass">
-                                    THE DESIGN ITERATIONS
+                                    PROTOTYPES
                                 </div>
                             </div>
                             <br />
@@ -395,69 +398,77 @@ export default function BillMe() {
                         <br />
                         <br />
                         <div id="BillMeSec4">
-                            <div className="fade-in">
-                                <div id="BillMeSec4Sub">
-                                    <img id="PCImg" src={PCImg} alt="PCImg" />
+
+                            <div id="BillMeSec4Sub">
+                                <div className="fade-in">
+                                    <div className="pc-container">
+                                        <div className="pc-frame" id="pcFrame">
+                                            {/* <div className="pc-notch" id="pc-notch"></div> */}
+                                            <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com/proto/ww8Wg5TX1jFrzSI8UTXvxM/Website-Highfi?page-id=0%3A1&node-id=1-678&viewport=742%2C273%2C0.04&t=IU4SBuZE0rpr6qIW-1&scaling=scale-down&starting-point-node-id=1%3A678" allowFullScreen></iframe>
+                                        </div>
+                                    </div>
                                 </div>
+                                {/* <img id="PCImg" src={PCImg} alt="PCImg" /> */}
                             </div>
+
                             <div className="fade-in"><a className="WireframeBut" href="https://www.figma.com/proto/ww8Wg5TX1jFrzSI8UTXvxM/Website-Highfi?page-id=0%3A1&node-id=1-678&viewport=742%2C273%2C0.04&t=IU4SBuZE0rpr6qIW-1&scaling=scale-down&starting-point-node-id=1%3A678">View full wireframes</a></div>
                         </div>
                     </div>
-                </div>
 
 
 
 
-                <div className="BillMeSecSubWhiteClass3">
-                    <div id="PaddedBillMe">
-                        <div className="fade-in">
-                            <div className="BillMeTextBodyClass">
-                                <b>Mobile Website Highfi</b>
-                            </div>
-                        </div>
-                    </div>
-                    <br />
-                    <br />
-                    <div id="BillMeSec4">
-                        <div id="BillMeSec4Sub">
+                    <div className="BillMeSecSubWhiteClass3">
+                        <div id="PaddedBillMe">
                             <div className="fade-in">
-                                <div className="phone-container">
-                                    <div className="phone-frame" id="phoneFrame">
-                                        <div className="notch" id="notch"></div>
-                                        <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com/proto/pXgQuVCNX641hw3EigkbIX/Mobile-Website?page-id=0%3A1&node-id=1-133&viewport=572%2C165%2C0.14&t=RANphPGH2BtzPbQU-1&scaling=scale-down&starting-point-node-id=1%3A133" allowFullScreen></iframe>
-                                    </div>
-                                    {/* <label id="phoneLabel">iPhone</label> */}
+                                <div className="BillMeTextBodyClass">
+                                    <b>Mobile Website Highfi</b>
                                 </div>
                             </div>
                         </div>
-                        <div className="fade-in"><a className="WireframeBut" href="https://www.figma.com/proto/pXgQuVCNX641hw3EigkbIX/Mobile-Website?page-id=0%3A1&node-id=1-133&viewport=572%2C165%2C0.14&t=RANphPGH2BtzPbQU-1&scaling=scale-down&starting-point-node-id=1%3A133">View full wireframes</a></div>
-                    </div>
-                </div>
-
-
-                <div className="BillMeSecSubWhiteClass3">
-                    <div id="PaddedBillMe">
-                        <div className="fade-in">
-                            <div className="BillMeTextBodyClass">
-                                <b>Mobile App Highfi</b>
+                        <br />
+                        <br />
+                        <div id="BillMeSec4">
+                            <div id="BillMeSec4Sub">
+                                <div className="fade-in">
+                                    <div className="phone-container">
+                                        <div className="phone-frame" id="phoneFrame">
+                                            <div className="notch" id="notch"></div>
+                                            <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com/proto/pXgQuVCNX641hw3EigkbIX/Mobile-Website?page-id=0%3A1&node-id=1-133&viewport=572%2C165%2C0.14&t=RANphPGH2BtzPbQU-1&scaling=scale-down&starting-point-node-id=1%3A133" allowFullScreen></iframe>
+                                        </div>
+                                        {/* <label id="phoneLabel">iPhone</label> */}
+                                    </div>
+                                </div>
                             </div>
+                            <div className="fade-in"><a className="WireframeBut" href="https://www.figma.com/proto/pXgQuVCNX641hw3EigkbIX/Mobile-Website?page-id=0%3A1&node-id=1-133&viewport=572%2C165%2C0.14&t=RANphPGH2BtzPbQU-1&scaling=scale-down&starting-point-node-id=1%3A133">View full wireframes</a></div>
                         </div>
                     </div>
-                    <br />
-                    <br />
-                    <div id="BillMeSec4">
-                        <div id="BillMeSec4Sub">
+
+
+                    <div className="BillMeSecSubWhiteClass3">
+                        <div id="PaddedBillMe">
                             <div className="fade-in">
-                                <div className="phone-container">
-                                    <div className="phone-frame" id="phoneFrame">
-                                        <div className="notch" id="notch"></div>
-                                        <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com/proto/1ULaycsRlcuQlUex1CnM70/BillMe-Mobile-App-Highfi?page-id=0%3A1&node-id=1-506&viewport=483%2C377%2C0.13&t=sEelkaoSAFlX7iDc-1&scaling=scale-down&starting-point-node-id=1%3A135" allowFullScreen></iframe>
-                                    </div>
-                                    {/* <label id="phoneLabel">iPhone</label> */}
+                                <div className="BillMeTextBodyClass">
+                                    <b>Mobile App Highfi</b>
                                 </div>
                             </div>
                         </div>
-                        <div className="fade-in"><a className="WireframeBut" href="https://www.figma.com/proto/1ULaycsRlcuQlUex1CnM70/BillMe-Mobile-App-Highfi?page-id=0%3A1&node-id=1-506&viewport=483%2C377%2C0.13&t=sEelkaoSAFlX7iDc-1&scaling=scale-down&starting-point-node-id=1%3A135">View full wireframes</a></div>
+                        <br />
+                        <br />
+                        <div id="BillMeSec4">
+                            <div id="BillMeSec4Sub">
+                                <div className="fade-in">
+                                    <div className="phone-container">
+                                        <div className="phone-frame" id="phoneFrame">
+                                            <div className="notch" id="notch"></div>
+                                            <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com/proto/1ULaycsRlcuQlUex1CnM70/BillMe-Mobile-App-Highfi?page-id=0%3A1&node-id=1-506&viewport=483%2C377%2C0.13&t=sEelkaoSAFlX7iDc-1&scaling=scale-down&starting-point-node-id=1%3A135" allowFullScreen></iframe>
+                                        </div>
+                                        {/* <label id="phoneLabel">iPhone</label> */}
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="fade-in"><a className="WireframeBut" href="https://www.figma.com/proto/1ULaycsRlcuQlUex1CnM70/BillMe-Mobile-App-Highfi?page-id=0%3A1&node-id=1-506&viewport=483%2C377%2C0.13&t=sEelkaoSAFlX7iDc-1&scaling=scale-down&starting-point-node-id=1%3A135">View full wireframes</a></div>
+                        </div>
                     </div>
                 </div>
             </div>

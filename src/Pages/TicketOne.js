@@ -410,7 +410,7 @@ export default function TicketOne() {
 
                 <div className="BillMeSecAshClass">
                     <div className="TicketOneSecSubDarkAshClass2">
-                        <div className="TicketOneTextHeaderClass3">
+                        <div className="TicketOneTextHeaderClass4">
                             <div className="fade-in">
                                 THE DESIGN ITERATIONS
                                 <hr className="TicketOneDividerClass" />
@@ -418,7 +418,7 @@ export default function TicketOne() {
                         </div>
 
                         <div className="fade-in">
-                            <div className="TicketOneTextBodyClass2">
+                            <div className="TicketOneTextBodyClass">
                                 <b>User Flows and Design Strategy:</b> Before creating wireframes, I thought through the user flows and information structure of the app to ensure it was simple and easy to use. The primary user flow involves linking a new ticket issuer and managing all tickets together.
                             </div>
                         </div>
@@ -499,9 +499,11 @@ export default function TicketOne() {
 
                 <div className="BillMeSecWhiteClass">
                     <div className="TicketOneSecSubVeryDarkAshClass3">
-                        <div className="fade-in">
-                            <div className="TicketOneTextBodyClass">
-                                <li><b>High-Fi Prototypes</b></li>
+                        <div id="PaddedBillMe">
+                            <div className="fade-in">
+                                <div className="TicketOneTextBodyClass">
+                                    <li><b>High-Fi Prototypes</b></li>
+                                </div>
                             </div>
                         </div>
                         <div id="TicketOneSec2">
