@@ -7,12 +7,11 @@ import IterationImg from "../images/Iteration1.png"
 import IterationImg2 from "../images/Iteration2.png"
 import IterationImg3 from "../images/Iteration3.png"
 import TicketOneGroupOfPhones from "../images/TicketOneGroupOfPhones.png"
-import TicketOnePrototypeImg from "../images/TicketOnePrototype.png"
 export default function TicketOne() {
 
     const style = {
         width: '60%',
-      };
+    };
     return (
         <>
             <div id="TicketOneDiv">
@@ -509,8 +508,8 @@ export default function TicketOne() {
                                     <b>High-Fi Prototypes</b>
                                 </div>
                             </div>
-                            </div>
-                        
+                        </div>
+
                         <div id="TicketOneSec2">
                             <div style={style} className="fade-in">
                                 <div className="phone-container">
@@ -524,7 +523,7 @@ export default function TicketOne() {
                             {/* <img id="TicketOnePrototypeImg" src={TicketOnePrototypeImg} alt="TicketOnePrototypeImg" /> */}
                             {/* <div className="fade-in"> <a className="WireframeBut2" href="https://www.figma.com/proto/1ULaycsRlcuQlUex1CnM70/BillMe-Mobile-App-Highfi?page-id=0%3A1&node-id=1-506&viewport=483%2C377%2C0.13&t=sEelkaoSAFlX7iDc-1&scaling=scale-down&starting-point-node-id=1%3A135">View full wireframes</a></div> */}
                         </div>
-                        
+
                     </div>
                 </div>
 
