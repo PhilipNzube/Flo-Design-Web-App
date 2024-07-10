@@ -1668,7 +1668,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('./images/TicketOnePhoneGroupBG.png') 0 0 no-repeat;
+    background: url('./images/TicketOnePhoneGroupBG-Mobile.png') 0 0 no-repeat;
     background-size: cover;
   }
 
