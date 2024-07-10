@@ -9,6 +9,14 @@ export default function BillMe() {
     const style = {
         width: '60%',
     };
+
+    const style2 = {
+        width: '100%',
+    };
+
+    const style3 = {
+        width: '100%',
+    };
     return (
         <>
             <div id="BillMeDiv">
@@ -404,7 +412,7 @@ export default function BillMe() {
                         <div id="BillMeSec4">
 
                             <div id="BillMeSec4Sub">
-                                <div style={style} className="fade-in">
+                                <div style={style2} className="fade-in">
                                     <div className="pc-container">
                                         <div className="pc-frame" id="pcFrame">
                                             {/* <div className="pc-notch" id="pc-notch"></div> */}
