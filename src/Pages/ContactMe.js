@@ -2,7 +2,6 @@ export default function ContactMe() {
     return (
         <>
             <div id="ContactMeSec1">
-                <div className="fade-in">
                     <div id="ContactMeDiv">
                         <div id="ContactMeTextHeader">Contact Me</div>
                         <div id="ContactMeBody">If you have any questions please reach out to me through my email address below<br /><br />
@@ -11,7 +10,6 @@ export default function ContactMe() {
                         </div>
                     </div>
                 </div>
-            </div>
         </>
     )
 }
