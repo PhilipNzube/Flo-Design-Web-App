@@ -515,7 +515,7 @@ export default function TicketOne() {
                                 <div className="phone-container">
                                     <div className="phone-frame" id="phoneFrame">
                                         <div className="notch" id="notch"></div>
-                                        <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com/proto/JoMPgQifu0Sq4CJsTIMv7j/TicketOne-Hi-Fi-Prototype?page-id=&node-id=1-47&viewport=330%2C318%2C0.05&t=CLKq6jRoC1fdx88z-1&scaling=scale-down&content-scaling=fixed" allowFullScreen></iframe>
+                                        <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com/proto/JoMPgQifu0Sq4CJsTIMv7j/TicketOne-Hi-Fi-Prototype?kind=proto&node-id=1-80&page-id=&scaling=scale-down" allowFullScreen></iframe>
                                     </div>
                                     {/* <label id="phoneLabel">iPhone</label> */}
                                 </div>
