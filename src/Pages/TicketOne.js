@@ -505,7 +505,7 @@ export default function TicketOne() {
                         <div id="PaddedBillMe">
                             <div className="fade-in">
                                 <div className="TicketOneTextBodyClass">
-                                    <b>High-Fi Prototypes</b>
+                                    <b>High-Fi Prototype</b>
                                 </div>
                             </div>
                         </div>
