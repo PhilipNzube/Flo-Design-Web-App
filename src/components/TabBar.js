@@ -128,7 +128,7 @@ export default function TabBar() {
 
 
     const ContactMeClick = () => {
-        navigate('/AboutMe?section=ContactMeDiv');
+        navigate('/ContactMe');
         ProjectsClicked = false;
         AboutMeClicked = false;
 

@@ -285,7 +285,7 @@ export default function BillMe() {
                             <br />
                             <div className="fade-in">
                                 <div className="BillMeTextBodyClass">
-                                    <li><b>App Wireframes:</b></li>
+                                    <b>App Wireframes:</b>
                                 </div>
                             </div>
                         </div>
@@ -303,7 +303,7 @@ export default function BillMe() {
                         <div id="PaddedBillMe">
                             <div className="fade-in">
                                 <div className="BillMeTextBodyClass">
-                                    <li><b>Website Wireframes:</b></li>
+                                    <b>Website Wireframes:</b>
                                 </div>
                             </div>
                         </div>
@@ -473,7 +473,7 @@ export default function BillMe() {
                                     <div className="phone-container">
                                         <div className="phone-frame" id="phoneFrame">
                                             <div className="notch" id="notch"></div>
-                                            <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com/proto/1ULaycsRlcuQlUex1CnM70/BillMe-Mobile-App-Highfi?page-id=0%3A1&node-id=1-506&viewport=483%2C377%2C0.13&t=sEelkaoSAFlX7iDc-1&scaling=scale-down&starting-point-node-id=1%3A135" allowFullScreen></iframe>
+                                            <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com/proto/ohhk0BtD3cEmziQxU7vBzU/BillMe-Highfi?page-id=0%3A1&node-id=1-135&viewport=409%2C351%2C0.05&t=RLr90PgSeVZkyCSk-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A135" allowFullScreen></iframe>
                                         </div>
                                         {/* <label id="phoneLabel">iPhone</label> */}
                                     </div>

@@ -344,6 +344,15 @@ body {
     height: 1300px;
   }
 
+  #ContactMeSec1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4%;
+    padding-top: 200px;
+    height: 1300px;
+  }
+
 
 
   #AboutMeSec1Main {
@@ -1330,6 +1339,17 @@ body {
 
 
   #AboutMeSec1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4%;
+    padding-top: 200px;
+    height: 1300px;
+    row-gap: 150px;
+  }
+
+
+  #ContactMeSec1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
