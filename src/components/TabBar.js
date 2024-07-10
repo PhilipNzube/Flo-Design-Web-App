@@ -2,12 +2,14 @@ import { useNavigate } from "react-router-dom";
 import Logo from "../images/logo 1.png";
 import Menu from "../images/Menu.png"
 import CloseMenu from "../images/CloseBut.png"
+import HomePage from "../Pages/HomePage";
 
 export default function TabBar() {
 
     let AboutMeClicked = true;
     let ProjectsClicked = false;
     const navigate = useNavigate();
+
 
     const isInViewport = (element) => {
         const rect = element.getBoundingClientRect();
@@ -61,17 +63,6 @@ export default function TabBar() {
         document.getElementById("Nav1").style.textUnderlineOffset = "0px";
         document.getElementById("Nav1").style.textDecorationThickness = "0px";
 
-        document.getElementById("Nav2").style.textDecoration = "none";
-        document.getElementById("Nav2").style.textUnderlineOffset = "0px";
-        document.getElementById("Nav2").style.textDecorationThickness = "0px";
-
-        document.getElementById("NavOverlay1").style.textDecoration = "none";
-        document.getElementById("NavOverlay1").style.textUnderlineOffset = "0px";
-        document.getElementById("NavOverlay1").style.textDecorationThickness = "0px";
-
-        document.getElementById("NavOverlay2").style.textDecoration = "none";
-        document.getElementById("NavOverlay2").style.textUnderlineOffset = "0px";
-        document.getElementById("NavOverlay2").style.textDecorationThickness = "0px";
         AboutMeClicked = true;
         ProjectsClicked = false;
         navigate('/');
@@ -94,19 +85,6 @@ export default function TabBar() {
         document.getElementById("Nav1").style.textDecoration = "underline";
         document.getElementById("Nav1").style.textUnderlineOffset = "10px";
         document.getElementById("Nav1").style.textDecorationThickness = "2px";
-
-        document.getElementById("Nav2").style.textDecoration = "none";
-        document.getElementById("Nav2").style.textUnderlineOffset = "0px";
-        document.getElementById("Nav2").style.textDecorationThickness = "0px";
-
-
-        document.getElementById("NavOverlay1").style.textDecoration = "underline";
-        document.getElementById("NavOverlay1").style.textUnderlineOffset = "10px";
-        document.getElementById("NavOverlay1").style.textDecorationThickness = "2px";
-
-        document.getElementById("NavOverlay2").style.textDecoration = "none";
-        document.getElementById("NavOverlay2").style.textUnderlineOffset = "0px";
-        document.getElementById("NavOverlay2").style.textDecorationThickness = "0px";
         navigate('/AboutMe');
         document.getElementById("NavOverlay").style.animationDuration = 0.3;
         document.getElementById("NavOverlay").style.animationName = "OverlaySlideOut";
@@ -122,49 +100,17 @@ export default function TabBar() {
     }
 
 
-    const AboutMeHover = () => {
-        if (AboutMeClicked !== true && ProjectsClicked !== false) {
-            document.getElementById("Nav1").style.textDecoration = "underline";
-            document.getElementById("Nav1").style.textUnderlineOffset = "10px";
-            document.getElementById("Nav1").style.textDecorationThickness = "2px";
-
-            document.getElementById("NavOverlay1").style.textDecoration = "underline";
-            document.getElementById("NavOverlay1").style.textUnderlineOffset = "10px";
-            document.getElementById("NavOverlay1").style.textDecorationThickness = "2px";
-        }
-    }
-
-    const AboutMeHoverLeave = () => {
-        if (AboutMeClicked !== true && ProjectsClicked !== false) {
-            document.getElementById("Nav1").style.textDecoration = "none";
-            document.getElementById("Nav1").style.textUnderlineOffset = "0px";
-            document.getElementById("Nav1").style.textDecorationThickness = "0px";
-
-            document.getElementById("NavOverlay1").style.textDecoration = "none";
-            document.getElementById("NavOverlay1").style.textUnderlineOffset = "0px";
-            document.getElementById("NavOverlay1").style.textDecorationThickness = "0px";
-        }
-    }
 
 
     const ProjectsClick = () => {
+        navigate('/?section=HomePageSec2');
         ProjectsClicked = true;
         AboutMeClicked = false;
-        document.getElementById("Nav2").style.textDecoration = "underline";
-        document.getElementById("Nav2").style.textUnderlineOffset = "10px";
-        document.getElementById("Nav2").style.textDecorationThickness = "2px";
+        <HomePage Scroll="true" /> 
 
         document.getElementById("Nav1").style.textDecoration = "none";
         document.getElementById("Nav1").style.textUnderlineOffset = "0px";
         document.getElementById("Nav1").style.textDecorationThickness = "0px";
-
-        document.getElementById("NavOverlay2").style.textDecoration = "underline";
-        document.getElementById("NavOverlay2").style.textUnderlineOffset = "10px";
-        document.getElementById("NavOverlay2").style.textDecorationThickness = "2px";
-
-        document.getElementById("NavOverlay1").style.textDecoration = "none";
-        document.getElementById("NavOverlay1").style.textUnderlineOffset = "0px";
-        document.getElementById("NavOverlay1").style.textDecorationThickness = "0px";
 
         document.getElementById("NavOverlay").style.animationDuration = 0.3;
         document.getElementById("NavOverlay").style.animationName = "OverlaySlideOut";
@@ -180,47 +126,15 @@ export default function TabBar() {
     }
 
 
-    const ProjectsHover = () => {
-        document.getElementById("Nav2").style.textDecoration = "underline";
-        document.getElementById("Nav2").style.textUnderlineOffset = "10px";
-        document.getElementById("Nav2").style.textDecorationThickness = "2px";
-
-        document.getElementById("NavOverlay2").style.textDecoration = "underline";
-        document.getElementById("NavOverlay2").style.textUnderlineOffset = "10px";
-        document.getElementById("NavOverlay2").style.textDecorationThickness = "2px";
-    }
-
-    const ProjectsHoverLeave = () => {
-        if (ProjectsClicked === false) {
-            document.getElementById("Nav2").style.textDecoration = "none";
-            document.getElementById("Nav2").style.textUnderlineOffset = "0px";
-            document.getElementById("Nav2").style.textDecorationThickness = "0px";
-            document.getElementById("NavOverlay2").style.textDecoration = "none";
-            document.getElementById("NavOverlay2").style.textUnderlineOffset = "0px";
-            document.getElementById("NavOverlay2").style.textDecorationThickness = "0px";
-        }
-    }
 
     const ContactMeClick = () => {
+        navigate('/AboutMe?section=ContactMeDiv');
         ProjectsClicked = false;
         AboutMeClicked = false;
 
         document.getElementById("Nav1").style.textDecoration = "none";
         document.getElementById("Nav1").style.textUnderlineOffset = "0px";
         document.getElementById("Nav1").style.textDecorationThickness = "0px";
-
-        document.getElementById("Nav2").style.textDecoration = "none";
-        document.getElementById("Nav2").style.textUnderlineOffset = "0px";
-        document.getElementById("Nav2").style.textDecorationThickness = "0px";
-
-
-        document.getElementById("NavOverlay1").style.textDecoration = "none";
-        document.getElementById("NavOverlay1").style.textUnderlineOffset = "0px";
-        document.getElementById("NavOverlay1").style.textDecorationThickness = "0px";
-
-        document.getElementById("NavOverlay2").style.textDecoration = "none";
-        document.getElementById("NavOverlay2").style.textUnderlineOffset = "0px";
-        document.getElementById("NavOverlay2").style.textDecorationThickness = "0px";
 
         document.getElementById("NavOverlay").style.animationDuration = 0.3;
         document.getElementById("NavOverlay").style.animationName = "OverlaySlideOut";
@@ -242,14 +156,14 @@ export default function TabBar() {
                 <img id="Logo" src={Logo} alt="Logo" onClick={LogoClick} />
                 <div id="Menu"><img id="MenuImg" src={Menu} alt="Menu" onClick={MenuClick} />
                     <img id="CloseMenuImg" src={CloseMenu} alt="Menu" onClick={CloseMenuClick} /></div>
-                <div id="Nav"><div id="Nav1" onClick={AboutMeClick} onMouseOver={AboutMeHover} onMouseLeave={AboutMeHoverLeave}>About Me</div>
-                    <div id="Nav2" onClick={ProjectsClick} onMouseOver={ProjectsHover} onMouseLeave={ProjectsHoverLeave}>Projects</div>
+                <div id="Nav"><div id="Nav1" onClick={AboutMeClick}>About Me</div>
+                    <div id="Nav2" onClick={ProjectsClick}>Projects</div>
                     <div id="Nav3" onClick={ContactMeClick}>Contact Me</div>
                 </div>
 
 
-                <div id="NavOverlay"><div id="NavOverlay1" onClick={AboutMeClick} onMouseOver={AboutMeHover} onMouseLeave={AboutMeHoverLeave}>About Me</div>
-                    <div id="NavOverlay2" onClick={ProjectsClick} onMouseOver={ProjectsHover} onMouseLeave={ProjectsHoverLeave}>Projects</div>
+                <div id="NavOverlay"><div id="NavOverlay1" onClick={AboutMeClick}>About Me</div>
+                    <div id="NavOverlay2" onClick={ProjectsClick}>Projects</div>
                     <div id="NavOverlay3" onClick={ContactMeClick}>Contact Me</div>
                 </div>
             </div>

@@ -4,11 +4,32 @@ import PhonesImg from "../images/GroupOfPhones.png"
 import SmallArrowImg from "../images/SmallArrow.png"
 import SmallArrowImg2 from "../images/SmallArrow2.png"
 import IPhoneImg from "../images/iMockup - iPhone 15.png"
-import IPhoneImg2 from "../images/iMockup - iPhone 16.png"
 import { useNavigate } from "react-router-dom";
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
-export default function HomePage() {
+export default function HomePage(props) {
     const navigate = useNavigate();
+
+
+    const LearnMoreClick = () => {
+        document.getElementById("Nav1").style.textDecoration = "underline";
+        document.getElementById("Nav1").style.textUnderlineOffset = "10px";
+        document.getElementById("Nav1").style.textDecorationThickness = "2px";
+        navigate('/AboutMe');
+        document.getElementById("NavOverlay").style.animationDuration = 0.3;
+        document.getElementById("NavOverlay").style.animationName = "OverlaySlideOut";
+        setTimeout(() => {
+            document.getElementById("NavOverlay").style.animationDuration = 0.8;
+            document.body.style.overflowY = "auto";
+            if (window.innerWidth < 780) {
+                document.getElementById("MenuImg").style.display = "block";
+            }
+            document.getElementById("NavOverlay").style.display = "none";
+            document.getElementById("CloseMenuImg").style.display = "none";
+        }, 300);
+    }
+    
 
     const Scroll = () => {
         document.getElementById("HomePageSec2").scrollIntoView({ behavior: 'smooth' });
@@ -22,6 +43,18 @@ export default function HomePage() {
     const GoToTicketOne = () => {
         navigate('/TicketOne');
     }
+    const location = useLocation();
+
+    useEffect(() => {
+        const params = new URLSearchParams(location.search);
+        const section = params.get('section');
+        if (section) {
+            const element = document.getElementById(section);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    }, [location]);
 
 
     return (
@@ -38,7 +71,7 @@ export default function HomePage() {
                                     Passionate towards interaction and motion design but will always help you build an
                                     innovative digital product starting from UX research to prototyping.
                                 </div>
-                                <div id="HomePageSec1But">Learn More</div>
+                                <div id="HomePageSec1But" onClick={LearnMoreClick}>Learn More</div>
                             </div>
                         </div>
                         <img id="ArrowImg" src={ArrowImg} alt="ArrowImg" onClick={Scroll} />
@@ -76,8 +109,6 @@ export default function HomePage() {
                                 </div>
                                 <div className="fade-in">
                                 <div id="IPhones" onClick={GoToTicketOne}>
-
-                                    <img id="IPhoneImg2" src={IPhoneImg2} alt="IPhoneImg2" />
                                     <img id="IPhoneImg" src={IPhoneImg} alt="IPhoneImg" />
                                     </div>
                                     </div>

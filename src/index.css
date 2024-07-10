@@ -77,18 +77,12 @@ body {
     height: 100px;
   }
 
-  #Nav1:hover {
+  #Nav1{
     cursor: pointer;
-    text-decoration: underline;
-    text-underline-offset: 10px;
-    text-decoration-thickness: 2px;
   }
 
-  #Nav2:hover {
+  #Nav2{
     cursor: pointer;
-    text-decoration: underline;
-    text-underline-offset: 10px;
-    text-decoration-thickness: 2px;
   }
 
   #Nav3 {
@@ -96,14 +90,6 @@ body {
     box-shadow: 2px 2px #000000;
     border: 1px solid #FCF9F8;
     padding: 5%;
-  }
-
-  #Nav3:hover {
-    cursor: pointer;
-    box-shadow: 0px 0px #000000;
-    border: 1px solid #000000;
-    color: #FFFFFF;
-    background: #000000;
   }
 
   #HomePageSec1 {
@@ -140,6 +126,7 @@ body {
   }
 
   #HomePageSec1TextHeader {
+    text-wrap: nowrap;
     color: #FFFFFF;
     font-size: 70px;
     font-weight: bold;
@@ -195,6 +182,7 @@ body {
   }
 
   #HomePageSec2TextHeader {
+    text-wrap: nowrap;
     color: #000000;
     font-size: 40px;
     font-weight: bold;
@@ -235,6 +223,7 @@ body {
   }
 
   #BillMeTextHeader {
+    text-wrap: nowrap;
     color: #000000;
     font-size: 25px;
     font-weight: bold;
@@ -288,6 +277,7 @@ body {
   }
 
   #TicketOneTextHeader {
+    text-wrap: nowrap;
     color: #FFFFFF;
     font-size: 25px;
     font-weight: bold;
@@ -340,17 +330,7 @@ body {
   }
 
   #IPhoneImg {
-    right: 35%;
-    bottom: 1%;
-    position: absolute;
-    width: 80%;
-  }
-
-  #IPhoneImg2 {
-    left: 35%;
-    bottom: 1%;
-    position: absolute;
-    width: 60%;
+    width: 100%;
   }
 
 
@@ -392,8 +372,9 @@ body {
   }
 
   #AboutMeImg1TextHeader {
+    text-wrap: nowrap;
     color: #000000;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
   }
 
@@ -403,21 +384,21 @@ body {
   }
 
   #CV {
+    color: #000;
+    text-decoration: none;
     text-align: center;
     text-wrap: nowrap;
     cursor: pointer;
     box-shadow: 2px 2px #000000;
     border: 1px solid #000000;
     padding: 3%;
-    width: 40%;
+    width: 50%;
     font-weight: 500;
   }
 
   #CV:hover {
     cursor: pointer;
     box-shadow: 0px 0px #000000;
-    border: 1px solid #000000;
-    padding: 3%;
     background: #000000;
     color: #FFFFFF;
   }
@@ -437,14 +418,15 @@ body {
   }
 
   #ContactMeTextHeader {
+    text-wrap: nowrap;
     color: #000000;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
   }
 
   #ContactMeTextBody {
     color: #000000;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   #BillMeDiv {
@@ -454,7 +436,7 @@ body {
   }
 
   #PhonesImg2 {
-    width: 60%;
+    width: 50%;
   }
 
   #BillMeSec1 {
@@ -471,14 +453,15 @@ body {
   }
 
   #BillMeSec1TextHeader {
+    text-wrap: nowrap;
     color: #000000;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
   }
 
   #BillMeSec1TextBody {
     color: #000000;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   #BillMeSec2 {
@@ -516,13 +499,13 @@ body {
   .BillMeTextHeaderClass {
     width: 100%;
     color: #000000;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
   }
 
   .BillMeTextBodyClass {
     color: #000000;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .BillMeDividerClass {
@@ -672,15 +655,16 @@ body {
   }
 
   .TicketOneTextHeaderClass {
+    text-wrap: nowrap;
     width: 100%;
     color: #FFFFFF;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
   }
 
   .TicketOneTextBodyClass {
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .TicketOneDividerClass {
@@ -769,6 +753,7 @@ body {
 
 
   .TicketOneTextHeaderClass2 {
+    text-wrap: nowrap;
     width: 100%;
     color: #FFFFFF;
     font-size: 20px;
@@ -776,6 +761,7 @@ body {
   }
 
   .TicketOneTextHeaderClass3 {
+    text-wrap: nowrap;
     width: 100%;
     color: #FFFFFF;
     font-size: 20px;
@@ -787,9 +773,10 @@ body {
   }
 
   .TicketOneTextHeaderClass4 {
+    text-wrap: nowrap;
     width: 100%;
     color: #FFFFFF;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
   }
 
@@ -829,7 +816,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .phone-frame {
@@ -846,6 +834,7 @@ body {
   }
 
   .phone-frame iframe {
+    background: #FFFFFF;
     width: 100%;
     height: 100%;
     border: 0;
@@ -1016,26 +1005,15 @@ body {
   }
 
   #NavOverlay1 {
-    font-size: 40px;
-  }
-
-  #NavOverlay1:hover {
     cursor: pointer;
-    text-decoration: underline;
-    text-underline-offset: 10px;
-    text-decoration-thickness: 2px;
+    font-size: 40px;
   }
 
   #NavOverlay2 {
+    cursor: pointer;
     font-size: 40px;
   }
 
-  #NavOverlay2:hover {
-    cursor: pointer;
-    text-decoration: underline;
-    text-underline-offset: 10px;
-    text-decoration-thickness: 2px;
-  }
 
   #NavOverlay3 {
     position: fixed;
@@ -1125,6 +1103,7 @@ body {
   }
 
   #HomePageSec1TextHeader {
+    text-wrap: nowrap;
     color: #FFFFFF;
     font-size: 50px;
     font-weight: bold;
@@ -1184,6 +1163,7 @@ body {
   }
 
   #HomePageSec2TextHeader {
+    text-wrap: nowrap;
     color: #000000;
     font-size: 30px;
     font-weight: bold;
@@ -1234,6 +1214,7 @@ body {
   }
 
   #BillMeTextHeader {
+    text-wrap: nowrap;
     color: #000000;
     font-size: 25px;
     font-weight: bold;
@@ -1290,6 +1271,7 @@ body {
   }
 
   #TicketOneTextHeader {
+    text-wrap: nowrap;
     color: #FFFFFF;
     font-size: 25px;
     font-weight: bold;
@@ -1342,17 +1324,7 @@ body {
   }
 
   #IPhoneImg {
-    right: 35%;
-    bottom: 1%;
-    position: absolute;
-    width: 70%;
-  }
-
-  #IPhoneImg2 {
-    left: 35%;
-    bottom: 1%;
-    position: absolute;
-    width: 60%;
+    width: 100%;
   }
 
 
@@ -1399,6 +1371,7 @@ body {
   }
 
   #AboutMeImg1TextHeader {
+    text-wrap: nowrap;
     color: #000000;
     font-size: 30px;
     font-weight: bold;
@@ -1410,6 +1383,8 @@ body {
   }
 
   #CV {
+    color: #000;
+    text-decoration: none;
     text-align: center;
     text-wrap: nowrap;
     cursor: pointer;
@@ -1423,8 +1398,6 @@ body {
   #CV:hover {
     cursor: pointer;
     box-shadow: 0px 0px #000000;
-    border: 1px solid #000000;
-    padding: 3%;
     background: #000000;
     color: #FFFFFF;
   }
@@ -1451,6 +1424,7 @@ body {
   }
 
   #ContactMeTextHeader {
+    text-wrap: nowrap;
     color: #000000;
     font-size: 30px;
     font-weight: bold;
@@ -1487,6 +1461,7 @@ body {
   }
 
   #BillMeSec1TextHeader {
+    text-wrap: nowrap;
     color: #000000;
     font-size: 30px;
     font-weight: bold;
@@ -1522,6 +1497,7 @@ body {
   }
 
   .BillMeTextHeaderClass {
+    text-wrap: nowrap;
     width: 100%;
     color: #000000;
     font-size: 25px;
@@ -1690,6 +1666,7 @@ body {
   }
 
   .TicketOneTextHeaderClass {
+    text-wrap: nowrap;
     width: 100%;
     color: #FFFFFF;
     font-size: 25px;
@@ -1787,6 +1764,7 @@ body {
 
 
   .TicketOneTextHeaderClass2 {
+    text-wrap: nowrap;
     width: 100%;
     color: #FFFFFF;
     font-size: 20px;
@@ -1794,6 +1772,7 @@ body {
   }
 
   .TicketOneTextHeaderClass3 {
+    text-wrap: nowrap;
     width: 100%;
     color: #FFFFFF;
     font-size: 20px;
@@ -1805,13 +1784,14 @@ body {
   }
 
   .TicketOneTextHeaderClass4 {
+    text-wrap: nowrap;
     width: 100%;
     color: #FFFFFF;
     font-size: 20px;
   }
 
   #UIDesignImg {
-    width: 90%;
+    width: 100%;
   }
 
   #UIDesignImg2 {
@@ -1850,7 +1830,7 @@ body {
   .phone-frame {
     width: 150px;
     height: 300px;
-    border: 5px black solid;
+    border: 2px black solid;
     border-radius: 36px;
     position: relative;
     overflow: hidden;
@@ -1871,8 +1851,8 @@ body {
   }
 
   .notch {
-    width: 75px;
-    height: 20px;
+    width: 55px;
+    height: 15px;
     background: black;
     position: absolute;
     top: 0;

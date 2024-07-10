@@ -5,6 +5,10 @@ import PCImg from "../images/PC.png"
 import MobileWebSiteImg from "../images/MobileWebsite.png"
 import MobileAppImg from "../images/MobileApp.png"
 export default function BillMe() {
+
+    const style = {
+        width: '60%',
+    };
     return (
         <>
             <div id="BillMeDiv">
@@ -400,7 +404,7 @@ export default function BillMe() {
                         <div id="BillMeSec4">
 
                             <div id="BillMeSec4Sub">
-                                <div className="fade-in">
+                                <div style={style} className="fade-in">
                                     <div className="pc-container">
                                         <div className="pc-frame" id="pcFrame">
                                             {/* <div className="pc-notch" id="pc-notch"></div> */}
@@ -411,7 +415,7 @@ export default function BillMe() {
                                 {/* <img id="PCImg" src={PCImg} alt="PCImg" /> */}
                             </div>
 
-                            <div className="fade-in"><a className="WireframeBut" href="https://www.figma.com/proto/ww8Wg5TX1jFrzSI8UTXvxM/Website-Highfi?page-id=0%3A1&node-id=1-678&viewport=742%2C273%2C0.04&t=IU4SBuZE0rpr6qIW-1&scaling=scale-down&starting-point-node-id=1%3A678">View full wireframes</a></div>
+                            {/* <div className="fade-in"><a className="WireframeBut" href="https://www.figma.com/proto/ww8Wg5TX1jFrzSI8UTXvxM/Website-Highfi?page-id=0%3A1&node-id=1-678&viewport=742%2C273%2C0.04&t=IU4SBuZE0rpr6qIW-1&scaling=scale-down&starting-point-node-id=1%3A678">View full wireframes</a></div> */}
                         </div>
                     </div>
 
@@ -430,7 +434,7 @@ export default function BillMe() {
                         <br />
                         <div id="BillMeSec4">
                             <div id="BillMeSec4Sub">
-                                <div className="fade-in">
+                                <div style={style} className="fade-in">
                                     <div className="phone-container">
                                         <div className="phone-frame" id="phoneFrame">
                                             <div className="notch" id="notch"></div>
@@ -440,7 +444,7 @@ export default function BillMe() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="fade-in"><a className="WireframeBut" href="https://www.figma.com/proto/pXgQuVCNX641hw3EigkbIX/Mobile-Website?page-id=0%3A1&node-id=1-133&viewport=572%2C165%2C0.14&t=RANphPGH2BtzPbQU-1&scaling=scale-down&starting-point-node-id=1%3A133">View full wireframes</a></div>
+                            {/* <div className="fade-in"><a className="WireframeBut" href="https://www.figma.com/proto/pXgQuVCNX641hw3EigkbIX/Mobile-Website?page-id=0%3A1&node-id=1-133&viewport=572%2C165%2C0.14&t=RANphPGH2BtzPbQU-1&scaling=scale-down&starting-point-node-id=1%3A133">View full wireframes</a></div> */}
                         </div>
                     </div>
 
@@ -457,7 +461,7 @@ export default function BillMe() {
                         <br />
                         <div id="BillMeSec4">
                             <div id="BillMeSec4Sub">
-                                <div className="fade-in">
+                                <div style={style} className="fade-in">
                                     <div className="phone-container">
                                         <div className="phone-frame" id="phoneFrame">
                                             <div className="notch" id="notch"></div>
@@ -467,7 +471,7 @@ export default function BillMe() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="fade-in"><a className="WireframeBut" href="https://www.figma.com/proto/1ULaycsRlcuQlUex1CnM70/BillMe-Mobile-App-Highfi?page-id=0%3A1&node-id=1-506&viewport=483%2C377%2C0.13&t=sEelkaoSAFlX7iDc-1&scaling=scale-down&starting-point-node-id=1%3A135">View full wireframes</a></div>
+                            {/* <div className="fade-in"><a className="WireframeBut" href="https://www.figma.com/proto/1ULaycsRlcuQlUex1CnM70/BillMe-Mobile-App-Highfi?page-id=0%3A1&node-id=1-506&viewport=483%2C377%2C0.13&t=sEelkaoSAFlX7iDc-1&scaling=scale-down&starting-point-node-id=1%3A135">View full wireframes</a></div> */}
                         </div>
                     </div>
                 </div>

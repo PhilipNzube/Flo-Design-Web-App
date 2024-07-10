@@ -1,6 +1,22 @@
 import AboutMeImg1 from "../images/About me.jpg"
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 export default function AboutMe() {
+
+
+    const location = useLocation();
+
+    useEffect(() => {
+        const params = new URLSearchParams(location.search);
+        const section = params.get('section');
+        if (section) {
+            const element = document.getElementById(section);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    }, [location]);
     return (
         <>
             <div id="AboutMeSec1">
@@ -40,7 +56,7 @@ export default function AboutMe() {
                             uniquely to bridge the gap between development and design, ensuring seamless and
                             user-centric digital experiences.
                         </div>
-                        <div className="fade-in"><div id="CV">View my CV</div></div>
+                        <div className="fade-in"><a id="CV" href="https://drive.google.com/file/d/11luKQjetS1DOg3YxZDH1V0WyN96A9ByM/view?usp=sharing">View my CV</a></div>
                     </div>
                 </div>
                 <div className="fade-in">
