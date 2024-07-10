@@ -9,14 +9,14 @@ body {
   padding: 0;
 }
 
-/* ::-webkit-scrollbar {
-  width: 5px;
+::-webkit-scrollbar {
+  width: 0px;
 }
 
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
   background-color: #000000;
   border-radius: 5px;
-} */
+}  */
 
 .fade-in {
   opacity: 0;
