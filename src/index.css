@@ -462,6 +462,7 @@ body {
     align-items: center;
     justify-content: center;
     padding-top: 200px;
+    padding-bottom: 100px;
   }
 
   #BillMeSec1Sub {
@@ -646,7 +647,6 @@ body {
     justify-content: center;
     align-items: center;
     background: url('./images/TicketOnePhoneGroupBG.png') 0 0 no-repeat;
-    height: 550px;
     background-size: cover;
   }
 
@@ -1479,6 +1479,7 @@ body {
     align-items: center;
     justify-content: center;
     padding-top: 200px;
+    padding-bottom: 100px;
   }
 
   #BillMeSec1Sub {
@@ -1668,7 +1669,6 @@ body {
     justify-content: center;
     align-items: center;
     background: url('./images/TicketOnePhoneGroupBG.png') 0 0 no-repeat;
-    height: 550px;
     background-size: cover;
   }
 
