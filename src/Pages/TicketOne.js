@@ -12,6 +12,14 @@ export default function TicketOne() {
     const style = {
         width: '60%',
     };
+
+    const FullWidthStyle = {
+        width: '100%',
+    };
+
+    const FlexRemoverStyle = {
+        display: 'block',
+    };
     return (
         <>
             <div id="TicketOneDiv">
@@ -402,7 +410,7 @@ export default function TicketOne() {
                                 <hr className="TicketOneDividerClass" />
                             </div>
                         </div>
-                        <div className="fade-in">
+                        <div className="fade-in" style={FullWidthStyle}>
                             <img id="UIDesignImg" src={UIDesignImg} alt="UIDesignImg" />
                         </div>
                     </div>
@@ -425,15 +433,15 @@ export default function TicketOne() {
                                 <b>User Flows and Design Strategy:</b> Before creating wireframes, I thought through the user flows and information structure of the app to ensure it was simple and easy to use. The primary user flow involves linking a new ticket issuer and managing all tickets together.
                             </div>
                         </div>
-                        <div className="fade-in"><img id="UIDesignImg2" src={IterationImg} alt="IterationImg" /></div>
-                        <div className="fade-in"><img id="UIDesignImg2" src={IterationImg2} alt="IterationImg" /></div>
-                        <div className="fade-in"><img id="UIDesignImg2" src={IterationImg3} alt="IterationImg" /></div>
+                        <div className="fade-in" style={FullWidthStyle}><img id="UIDesignImg2" src={IterationImg} alt="IterationImg" /></div>
+                        <div className="fade-in" style={FullWidthStyle}><img id="UIDesignImg2" src={IterationImg2} alt="IterationImg" /></div>
+                        <div className="fade-in" style={FullWidthStyle}><img id="UIDesignImg2" src={IterationImg3} alt="IterationImg" /></div>
                     </div>
                 </div>
 
 
 
-                <div className="BillMeSecWhiteClass">
+                <div className="BillMeSecWhiteClass" style={FlexRemoverStyle}>
                     <div className="TicketOneSecSubVeryDarkAshClass2">
                         <div className="fade-in">
                             <div className="TicketOneTextBodyClass">

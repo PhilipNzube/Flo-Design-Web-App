@@ -33,7 +33,925 @@ body {
   row-gap: 80px;
 }
 
-@media only screen and (min-width:780px) {
+
+
+@media only screen and (min-width:1440px) {
+
+  #HomePageContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #TabBarMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: #FCF9F8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    font-size: 20px;
+  }
+
+  #Logo {
+    cursor: pointer;
+    height: 100px;
+  }
+
+  #Menu {
+    display: none;
+  }
+
+  #NavOverlay {
+    display: none;
+  }
+
+  #Nav {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    align-items: center;
+    text-wrap: nowrap;
+    position: fixed;
+    right: 5%;
+    height: 100px;
+  }
+
+  #Nav1{
+    cursor: pointer;
+  }
+
+  #Nav2{
+    cursor: pointer;
+  }
+
+  #Nav3 {
+    cursor: pointer;
+    box-shadow: 2px 2px #000000;
+    border: 1px solid #FCF9F8;
+    padding: 5%;
+  }
+
+  #Nav3:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px #000000;
+    border: 1px solid #000000;
+    color: #FFFFFF;
+    background: #000000;
+  }
+
+  #HomePageSec1 {
+    display: flex;
+    flex-direction: column;
+    background: #0C0C0C;
+    padding-bottom: 4%;
+    padding-right: 8%;
+    padding-top: 100px;
+    align-items: center;
+    row-gap: 30px;
+  }
+
+
+
+  #HomePageSec1Main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #HomePageImg1 {
+    width: 40%;
+    height: 100%;
+  }
+
+  #HomePageSec1Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 30px;
+  }
+
+  #HomePageSec1TextHeader {
+    text-wrap: nowrap;
+    color: #FFFFFF;
+    font-size: 70px;
+    font-weight: bold;
+  }
+
+  #HomePageSec1TextBody {
+    color: #FFFFFF;
+    font-size: 28px;
+  }
+
+  #HomePageSec1But {
+    background: #000000;
+    color: #FFFFFF;
+    box-shadow: 2px 2px #FFFFFF;
+    border: 1px solid #FCF9F8;
+    padding: 3%;
+    text-align: center;
+    width: 200px;
+    text-wrap: nowrap;
+    font-size: 28px;
+  }
+
+  #HomePageSec1But:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px #000000;
+    border: 1px solid #000000;
+    padding: 3%;
+    color: #000000;
+    background: #FFFFFF;
+  }
+
+  #ArrowImg {
+    cursor: pointer;
+    height: 70px;
+    width: 50px;
+  }
+
+  #HomePageSec2 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    row-gap: 30px;
+    height: 950px;
+  }
+
+  #HomePageSec2Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120px;
+  }
+
+  #HomePageSec2TextHeader {
+    text-wrap: nowrap;
+    color: #000000;
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  #HomePageSec2TextBody {
+    color: #000000;
+    font-size: 30px;
+  }
+
+  #HomePageSec2Main {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2%;
+  }
+
+  #BillMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #000000;
+    background: url('./images/PhoneBG.png') 0 100% no-repeat;
+    background-size: contain;
+    padding: 4%;
+    height: 100%;
+    width: 40%;
+  }
+
+  #BillMeText {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    height: 200px;
+  }
+
+  #BillMeTextHeader {
+    text-wrap: nowrap;
+    color: #000000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  #BillMeTextBody {
+    color: #000000;
+    font-size: 28px;
+  }
+
+  #BillMeTextBody2 {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
+    align-items: center;
+    color: #000000;
+    font-size: 25px;
+    width: 40%;
+    font-weight: bold;
+    text-wrap: nowrap;
+  }
+
+  #SmallArrowImg {
+    height: 15px;
+  }
+
+
+
+  #TicketOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #000000;
+    background: #000000 url('./images/PhoneBG2.png') 0 100% no-repeat;
+    background-size: contain;
+    padding: 4%;
+    height: 100%;
+    width: 40%;
+  }
+
+  #TicketOneText {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    height: 200px;
+  }
+
+  #TicketOneTextHeader {
+    text-wrap: nowrap;
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  #TicketOneTextBody {
+    color: #FFFFFF;
+    font-size: 28px;
+  }
+
+  #TicketOneTextBody2 {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 25px;
+    width: 40%;
+    font-weight: bold;
+    text-wrap: nowrap;
+  }
+
+  #PhonesImg {
+    width: 100%;
+    transition-property: all;
+    transition-duration: 1s;
+    transform: scaleX(100%);
+  }
+
+  #PhonesImg:hover {
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1s;
+    transform: scale(120%);
+  }
+
+  #IPhones {
+    position: relative;
+    transition-property: all;
+    transition-duration: 1s;
+    transform: scaleX(100%);
+  }
+
+  #IPhones:hover {
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1s;
+    transform: scale(120%);
+  }
+
+  #IPhoneImg {
+    width: 100%;
+  }
+
+
+
+  #AboutMeSec1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4%;
+    padding-top: 200px;
+    height: 1300px;
+  }
+
+  #ContactMeSec1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4%;
+    padding-top: 200px;
+    height: 1300px;
+  }
+
+
+
+  #AboutMeSec1Main {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+
+  }
+
+  #AboutMeImg1Main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    width: 50%;
+  }
+
+  #AboutMeImg1 {
+    width: 95%;
+  }
+
+  #AboutMeSec1Text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    width: 50%;
+  }
+
+  #AboutMeImg1TextHeader {
+    text-wrap: nowrap;
+    color: #000000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  #AboutMeSec1TextBody {
+    color: #000000;
+    font-size: 28px;
+  }
+
+  #CV {
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    text-wrap: nowrap;
+    cursor: pointer;
+    box-shadow: 2px 2px #000000;
+    border: 1px solid #000000;
+    padding: 3%;
+    width: 50%;
+    font-weight: 500;
+    font-size: 28px;
+  }
+
+  #CV:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px #000000;
+    background: #000000;
+    color: #FFFFFF;
+  }
+
+  #ContactMeDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+  }
+
+  #ContactMeText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+  }
+
+  #ContactMeTextHeader {
+    text-wrap: nowrap;
+    color: #000000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  #ContactMeTextBody {
+    color: #000000;
+    font-size: 35px;
+  }
+
+  #BillMeDiv {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  #PhonesImg2 {
+    width: 50%;
+  }
+
+  #BillMeSec1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+
+  #BillMeSec1Sub {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #BillMeSec1TextHeader {
+    text-wrap: nowrap;
+    color: #000000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  #BillMeSec1TextBody {
+    color: #000000;
+    font-size: 28px;
+  }
+
+  #BillMeSec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./images/BillMePhoneGroupBG.png') 0 0 no-repeat;
+    background-size: cover;
+  }
+
+
+  .BillMeSecWhiteClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .BillMeSecSubWhiteClass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .BillMeSecSubWhiteClass3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .BillMeTextHeaderClass {
+    width: 100%;
+    color: #000000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .BillMeTextBodyClass {
+    color: #000000;
+    font-size: 28px;
+  }
+
+  .BillMeDividerClass {
+    background: #000000;
+    width: 100%;
+    height: 3px;
+  }
+
+  .BillMeSecAshClass {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+
+  .BillMeSecSubAshClass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #EFEAEA;
+  }
+
+
+  .BillMeSecSubWhiteClass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #BillMeSec3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+  }
+
+  #PhonesImg3Div {
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+
+  #PhonesImg3 {
+    width: 100%;
+  }
+
+  .WireframeBut {
+    color: #000;
+    text-decoration: none;
+    text-wrap: nowrap;
+    cursor: pointer;
+    box-shadow: 2.5px 2.5px #000000;
+    border: 1px solid #000000;
+    padding: 15px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .WireframeBut:hover {
+    background: #000;
+    color: #FFFFFF;
+    cursor: pointer;
+    box-shadow: 0px 0px #000000;
+  }
+
+  #PCImgsDiv {
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+
+  #PCImgs {
+    width: 100%;
+  }
+
+  #PaddedBillMe {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .BillMeSecSubWhiteClass2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  #BillMeSec4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+    width: 100%;
+  }
+
+  #BillMeSec4Sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #EFEAEA;
+    width: 100%;
+  }
+
+  #PCImg {
+    width: 80%;
+  }
+
+
+  #TicketOneDiv {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  #TicketOneMeSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./images/TicketOnePhoneGroupBG.png') 0 0 no-repeat;
+    background-size: cover;
+  }
+
+  #TicketOnePhonesImg {
+    width: 40%;
+  }
+
+
+  .TicketOneSecDarkAshClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .TicketOneSecSubDarkAshClass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #3F3F3F;
+  }
+
+  .TicketOneTextHeaderClass {
+    text-wrap: nowrap;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .TicketOneTextBodyClass {
+    color: #FFFFFF;
+    font-size: 28px;
+  }
+
+  .TicketOneDividerClass {
+    background: #FFFFFF;
+    width: 100%;
+    height: 3px;
+  }
+
+  .TicketOneSecVeryDarkAshClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .TicketOneSecSubVeryDarkAshClass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #1E1F22;
+  }
+
+
+  .TicketOneSecSubDarkAshClass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .TicketOneSecAshClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .TicketOneSecSubVeryDarkAshClass2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #1E1F22;
+  }
+
+
+  .TicketOneSecSubDarkAshClass2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #3F3F3F;
+  }
+
+
+  #TicketOnePersona {
+    display: flex;
+    flex-direction: row;
+    column-gap: 60px;
+  }
+
+  #TicketOnePersonaSub {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  #TicketOnePersonaSub2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #PersonaImg {
+    height: 500px;
+  }
+
+
+  .TicketOneTextHeaderClass2 {
+    text-wrap: nowrap;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .TicketOneTextHeaderClass3 {
+    text-wrap: nowrap;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 30px;
+  }
+
+  .TicketOneTextBodyClass2 {
+    color: #FFFFFF;
+    font-size: 26px;
+  }
+
+  .TicketOneTextHeaderClass4 {
+    text-wrap: nowrap;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  #UIDesignImg {
+    width: 100%;
+  }
+
+  #UIDesignImg2 {
+    width: 100%;
+  }
+
+  #TicketOneGroupOfPhones {
+    width: 100%;
+  }
+
+  .WireframeBut2 {
+    color: #000;
+    text-decoration: none;
+    text-wrap: nowrap;
+    cursor: pointer;
+    box-shadow: 2.5px 2.5px #000000;
+    border: 1px solid #000000;
+    padding: 10px;
+    font-weight: 500;
+    text-align: center;
+    background: #FFFFFF;
+    font-size: 28px;
+  }
+
+  .WireframeBut2:hover {
+    color: #FFFFFF;
+    background: #000;
+    cursor: pointer;
+    box-shadow: 0px 0px #000000;
+  }
+
+  .phone-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .phone-frame {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .phone-frame.samsung {
+    width: 100%;
+    height: 500px;
+  }
+
+  .phone-frame iframe {
+    background: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  .notch {
+    display: none;
+    width: 110px;
+    height: 30px;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0 0 10px 10px;
+  }
+
+  #selector {
+    margin-bottom: 20px;
+  }
+
+  .phone-container label {
+    display: block;
+    margin-top: 10px;
+  }
+
+
+
+
+  .pc-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .pc-frame {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .pc-frame iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  .pc-notch {
+    width: 110px;
+    height: 30px;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0 0 10px 10px;
+  }
+
+
+  #TicketOnePrototypeImg {
+    width: 50%;
+  }
+
+  #TicketOneSec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .TicketOneSecSubVeryDarkAshClass3 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #1E1F22;
+    width: 100%;
+  }
+}
+
+
+
+
+@media only screen and (max-width:1440px) {
 
   #HomePageContainer {
     display: flex;
@@ -1397,6 +2315,7 @@ body {
     display: flex;
     flex-direction: column;
     row-gap: 30px;
+    width: 100%;
   }
 
   #AboutMeImg1TextHeader {
@@ -1660,7 +2579,6 @@ body {
   #TicketOneDiv {
     display: flex;
     flex-direction: column;
-    width: 100%;
   }
 
 
@@ -1789,6 +2707,7 @@ body {
 
   #PersonaImg {
     width: 100%;
+    height: 100%;
   }
 
 
