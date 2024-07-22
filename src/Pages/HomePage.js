@@ -87,7 +87,7 @@ export default function HomePage(props) {
                     <div id="HomePageSec2Main">
                             <div id="BillMe">
                                 <div id="BillMeText">
-                                <div className="fade-in"><div id="BillMeTextHeader">Bill Me</div></div>
+                                <div className="fade-in"><div id="BillMeTextHeader">BillMe</div></div>
                                 <div className="fade-in"> <div id="BillMeTextBody">BillMe is a simplified invoicing app allows users to send email invoices and
                                         enables clients to securely enter their card details.
                                     </div></div>
