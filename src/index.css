@@ -1073,6 +1073,7 @@ body {
     text-align: center;
     width: 100px;
     text-wrap: nowrap;
+    font-size: 18px;
   }
 
   #HomePageSec1But:hover {
@@ -1330,6 +1331,7 @@ body {
     padding: 3%;
     width: 50%;
     font-weight: 500;
+    font-size: 18px;
   }
 
   #CV:hover {
@@ -1406,6 +1408,7 @@ body {
     justify-content: center;
     align-items: center;
     background: url('./images/BillMePhoneGroupBG.png') 0 0 no-repeat;
+    background-size: cover;
   }
 
 
@@ -2026,7 +2029,7 @@ body {
   }
 
   #HomePageImg1 {
-    width: 90%;
+    width: 100%;
     height: 100%;
   }
 
@@ -2086,7 +2089,7 @@ body {
     padding-top: 4%;
     padding-left: 10%;
     padding-right: 10%;
-    row-gap: 10px;
+    row-gap: 20px;
     height: 100%;
   }
 
@@ -2107,7 +2110,7 @@ body {
 
   #HomePageSec2TextBody {
     color: #000000;
-    font-size: 18px;
+    font-size: 15px;
   }
 
   #HomePageSec2Main {
@@ -2426,6 +2429,7 @@ body {
     justify-content: center;
     align-items: center;
     background: url('./images/BillMePhoneGroupBG.png') 0 0 no-repeat;
+    background-size: cover;
   }
 
 

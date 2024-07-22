@@ -65,7 +65,7 @@ export default function HomePage(props) {
                             <img id="HomePageImg1" src={HomePageImg1} alt="HomePageImg" />
                             <div id="HomePageSec1Text">
                                 <div id="HomePageSec1TextHeader">Who am I?</div>
-                                <div id="HomePageSec1TextBody">I’m Ali, an Egyptian Computer Science student in<br />
+                                <div id="HomePageSec1TextBody">I’m Ali, an Egyptian Computer Science student in
                                     Canada transitioning from software
                                     development to UX design.
                                     Passionate towards interaction and motion design but will always help you build an
